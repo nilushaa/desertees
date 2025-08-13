@@ -24,7 +24,7 @@ const products = [
 ];
 
 export default function ProductList() {
-  const [cart, setCart] = useState({}); // cart: { productId: quantity }
+  const [cart, setCart] = useState({}); 
 
   const addToCart = (product) => {
     setCart(prevCart => {
@@ -54,7 +54,7 @@ export default function ProductList() {
       return { ...prevCart, [productId]: quantity - 1 };
     });
   };
-
+<h1>Dessert</h1>
   return (
     <div className="app-container">
       <div className="product-list-container">
