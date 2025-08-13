@@ -91,6 +91,7 @@
     transform: translateX(-50%);
     display: flex;
     align-items: center;
+    justify-content: center; /* Centers the buttons horizontally */
     gap: 12px;
     min-width: 180px;
     background-color: white;
@@ -127,6 +128,7 @@
     min-width: 20px;
     text-align: center;
   }
+  
   
   .cart-card {
     background-color: #fff;
