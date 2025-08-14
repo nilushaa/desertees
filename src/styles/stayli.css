@@ -83,8 +83,8 @@
   }
   
   .add-to-cart-btn:hover {
-    background-color: #C73B0F;
-    color: white;
+   
+    color: #C73B0F;
   }
   
   .quantity-controls {
@@ -97,7 +97,7 @@
     justify-content: center;
     gap: 12px;
     min-width: 180px;
-    background-color: white;
+    background-color: #C73B0F;
     border-radius: 60px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     padding: 6px 20px;
@@ -105,8 +105,8 @@
   }
   
   .qty-btn {
-    background-color: #C73B0F;
-    color: white;
+    background-color: #fff;
+    color: #090808;
     border: none;
     font-size: 20px;
     font-weight: bold;
