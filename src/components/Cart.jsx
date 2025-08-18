@@ -13,8 +13,8 @@ export default function Cart() {
   return (
     <div className="cart-card">
       <div className="cart-card-header">
-        <h2>Your Cart ({cart.length})</h2>  {/* "Your Cart" text aligned to the left */}
-        <img src={cartImage} alt="Cart" className="cart-card-image" />  {/* Image aligned to the right */}
+        <h2>Your Cart ({cart.length})</h2> 
+        <img src={cartImage} alt="Cart" className="cart-card-image" />  
       </div>
 
       {cart.length === 0 ? (
